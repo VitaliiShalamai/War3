@@ -190,7 +190,7 @@ header {
 }
 
 .skills-item {
-  width: 270px;
+  width: calc((100%-90px) / 4);
 }
 
 .skills-item:not(:last-child) {
