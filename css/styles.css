@@ -42,6 +42,11 @@ p {
   margin-right: auto;
 }
 
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .hidden-title {
   display: none;
 }
@@ -133,7 +138,6 @@ header {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
   text-align: center;
   background-color: var(--background-color);
 }
@@ -180,10 +184,6 @@ header {
 
 /* SKILLS */
 
-.skills {
-  margin-bottom: 94px;
-}
-
 .skills-list {
   display: flex;
   justify-content: center;
@@ -218,7 +218,7 @@ header {
 /* EXAMPLES */
 
 .work {
-  margin-bottom: 94px;
+  padding-top: 0;
 }
 
 .work-title,
@@ -247,8 +247,6 @@ header {
 /* TEAM */
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--filter-color);
 }
 
@@ -330,11 +328,6 @@ header {
 }
 
 /* PORTFOLIO */
-
-.portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
 
 .filter {
   display: flex;
