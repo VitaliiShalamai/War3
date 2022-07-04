@@ -381,7 +381,7 @@ header {
   margin-right: 0;
 }
 
-.project-item:nth-last-child(-n + 3) {
+.project-item:nth-last-child(3n) {
   margin-bottom: 0;
 }
 
