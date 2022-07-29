@@ -185,7 +185,6 @@ header {
 
 .skills-list {
   display: flex;
-  justify-content: center;
 }
 
 .skills-item {
