@@ -42,7 +42,11 @@ p {
   margin-right: auto;
 }
 
-section {
+.hero,
+.skills,
+.work,
+.team,
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -156,10 +160,9 @@ header {
 }
 
 .main-btn {
-  display: inline-block;
-  min-width: 200px;
-  min-height: 50px;
-  padding: 10px 32px;
+  width: 200px;
+  height: 50px;
+  padding: 0;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -250,6 +253,10 @@ header {
 
 .team-list {
   display: flex;
+}
+
+.team-list img {
+  display: block;
 }
 
 .team-item {
